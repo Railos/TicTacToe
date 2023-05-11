@@ -3,7 +3,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 
-backend = ctypes.CDLL("C:/Users/Ivan/Desktop/TicTacToe/backend.so", winmode=0)
+backend = ctypes.CDLL("backend.so", winmode=0)
 #когда изменен backend.cpp обязательно прописывать команду в терминале!!!
 #g++ -fPIC -shared -o backend.so backend.cpp
 
